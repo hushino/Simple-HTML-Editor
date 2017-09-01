@@ -16,5 +16,11 @@ namespace Simple_HTML_Editor
         {
             InitializeComponent();
         }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
+            webBrowser1.DocumentText = richTextBox1.Text;
+
+        }
     }
 }
